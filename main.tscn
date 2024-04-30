@@ -605,3 +605,8 @@ layer_0/tile_data = PackedInt32Array(3538957, 458752, 0, 3538958, 458752, 0, 353
 
 [node name="CharacterBody2D" parent="SceneObjects" instance=ExtResource("3_gyrfu")]
 position = Vector2(65, 824)
+
+[node name="Camera2D" type="Camera2D" parent="SceneObjects/CharacterBody2D"]
+zoom = Vector2(5, 5)
+position_smoothing_enabled = true
+position_smoothing_speed = 7.0
